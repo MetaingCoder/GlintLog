@@ -3,14 +3,20 @@
     "slug": "hello-world",
     "title": "Hello World",
     "date": "2026-01-15",
-    "tags": ["life", "note"],
+    "tags": [
+      "life",
+      "note"
+    ],
     "summary": "A short introduction to this blog and what I plan to write here."
   },
   {
     "slug": "second-post",
     "title": "Building a Small Static Blog",
     "date": "2026-01-10",
-    "tags": ["web", "development"],
+    "tags": [
+      "web",
+      "development"
+    ],
     "summary": "The design principles behind a browser-rendered Markdown blog with a tiny deployment surface."
   }
 ]
