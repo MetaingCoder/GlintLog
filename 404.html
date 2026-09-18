@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The page you requested could not be found.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="404">
+  <meta property="og:description" content="The page you requested could not be found.">
+  <meta property="og:url" content="/404.html">
+  <meta property="og:site_name" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="404">
+  <meta name="twitter:description" content="The page you requested could not be found.">
+  <title>404</title>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch (_) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="./css/style.css?v=4">
+</head>
+<body data-page="404">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-name" href="./index.html" data-site-name aria-label="Home"></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation"></nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="shell page-space empty-page">
+    <section>
+      <p class="error-code">404</p>
+      <h1>Page not found</h1>
+      <p>The page you requested doesn’t exist or has moved.</p>
+      <a class="text-link" href="./index.html">Back to Posts</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© <span data-current-year></span> <span data-site-name></span></p>
+      <p data-footer-text>Powered By GlintLog.</p>
+      <nav class="social-links" aria-label="Social links" data-social-links hidden></nav>
+    </div>
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/feather-icons@4.29.2/dist/feather.min.js"></script>
+  <script defer src="./js/app.js?v=4"></script>
+</body>
+</html>

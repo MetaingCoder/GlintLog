@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal blog.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="A personal blog.">
+  <meta property="og:url" content="/">
+  <meta property="og:site_name" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="A personal blog.">
+  <title>Posts</title>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch (_) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="./css/style.css?v=4">
+  <link rel="alternate" type="application/rss+xml" href="./data/feed.xml">
+</head>
+<body data-page="posts">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-name" href="./index.html" data-site-name aria-label="Home"></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation"></nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="shell page-space">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Writing &amp; experiments</p>
+      <h1 id="page-title">Posts</h1>
+      <p class="intro-copy" data-site-description>A personal blog.</p>
+    </section>
+
+    <section aria-labelledby="post-list-title">
+      <div class="section-heading-row">
+        <h2 id="post-list-title" class="section-title">Latest</h2>
+        <span id="result-count" class="result-count" aria-live="polite"></span>
+      </div>
+
+      <div id="post-list" class="post-list" aria-live="polite"></div>
+
+      <div id="load-error" class="status-box" hidden></div>
+
+      <div id="infinite-scroll-sentinel" class="infinite-scroll-sentinel" hidden aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© <span data-current-year></span> <span data-site-name></span></p>
+      <p data-footer-text>Powered by GlintLog</p>
+      <nav class="social-links" aria-label="Social links" data-social-links hidden></nav>
+    </div>
+  </footer>
+
+  <!-- TODO: Umami / Plausible analytics script. Add your privacy-friendly tracking snippet and site ID here. -->
+  <!-- TODO: Newsletter provider placeholder: Buttondown / ConvertKit embed can be placed in the footer. -->
+  <!-- TODO: PWA: add <link rel="manifest" href="./manifest.json"> and register a service worker when ready. -->
+  <script defer src="https://cdn.jsdelivr.net/npm/feather-icons@4.29.2/dist/feather.min.js"></script>
+  <script defer src="./js/app.js?v=4"></script>
+</body>
+</html>

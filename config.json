@@ -1,0 +1,31 @@
+{
+  "siteName": "Site Name",
+  "siteDescription": "A minimal personal blog about technology, experiments, notes, and the web.",
+  "navItems": [
+    {
+      "label": "Posts",
+      "url": "./index.html"
+    },
+    {
+      "label": "About",
+      "url": "./about.html"
+    },
+    {
+      "label": "Search",
+      "url": "./search.html",
+      "icon": "search"
+    },
+    {
+      "label": "RSS",
+      "url": "{rssPath}",
+      "icon": "rss"
+    }
+  ],
+  "postsPerPage": 20,
+  "footerText": "Powered By GlintLog.",
+  "aboutContent": "<p>I’m an independent creator who enjoys building things, learning how systems work, and documenting the process along the way.</p>\n<p>This site is a quiet place for technical notes, experiments, useful references, and personal observations. The goal is simple: write things down clearly enough that they become useful again later.</p>\n<h2>What you’ll find here</h2>\n<p>Development workflows, web experiments, open-source tooling, design decisions, performance notes, and the occasional idea that needs more room than a short post can give it.</p>\n<h2>Contact</h2>\n<p>For now, the easiest way to reach me is through the social or professional links you choose to add here.</p>",
+  "socialLinks": [],
+  "rssPath": "/data/feed.xml",
+  "searchPlaceholder": "Search articles...",
+  "darkModeDefault": false
+}

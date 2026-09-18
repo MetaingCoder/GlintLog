@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Site Name</title>
+    <link>https://your-domain.example/</link>
+    <description>A minimal personal blog about technology, experiments, notes, and the web.</description>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Hello World</title>
+      <link>https://your-domain.example/post.html?slug=hello-world</link>
+      <description>A short introduction to this blog and what I plan to write here.</description>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://your-domain.example/post.html?slug=hello-world</guid>
+    </item>
+    <item>
+      <title>Building a Small Static Blog</title>
+      <link>https://your-domain.example/post.html?slug=second-post</link>
+      <description>The design principles behind a browser-rendered Markdown blog with a tiny deployment surface.</description>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://your-domain.example/post.html?slug=second-post</guid>
+    </item>
+  </channel>
+</rss>
