@@ -5,6 +5,26 @@
     <link>https://xxx/</link>
     <description>xxx</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 07:17:02 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Building a Small Static Blog</title>
+      <link>https://xxx/post.html?slug=second-post</link>
+      <description>The design principles behind a browser-rendered Markdown blog with a tiny deployment surface.</description>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xxx/post.html?slug=second-post</guid>
+      <content:encoded><![CDATA[# Building a Small Static Blog
+
+A personal site does not need a large application stack. A handful of HTML pages, one stylesheet, a few browser scripts, and Markdown content can be enough.
+
+## The basic flow
+
+1. Write an article in `content/posts/`.
+2. Push it to GitHub.
+3. GitHub Actions updates the index and feeds.
+4. Cloudflare Pages serves the repository as static files.
+5. `post.html?slug=...` fetches the Markdown article and renders it in the browser.
+
+The result is a deliberately small system with a clear separation between content, metadata, and presentation.]]></content:encoded>
+    </item>
   </channel>
 </rss>
