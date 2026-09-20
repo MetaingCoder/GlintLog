@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Site Name</title>
-    <link>https://blog.kusteo.com/</link>
-    <description>A minimal personal blog about technology, experiments, notes, and the web.</description>
+    <title>xxx</title>
+    <link>https://xxx/</link>
+    <description>xxx</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 GMT</lastBuildDate>
-    <item>
-      <title>Hello World</title>
-      <link>https://blog.kusteo.com/post.html?slug=hello-world</link>
-      <description>A short introduction to this blog and what I plan to write here.</description>
-      <content:encoded><![CDATA[<h1>Hello World</h1>
-<p>This is the first note on the site. The blog is intentionally simple: Markdown files live in the repository, the browser loads the selected article, and the page renders it on the client.</p>
-<h2>Why a static blog?</h2>
-<p>A static architecture keeps deployment and maintenance small. There is no application server, database, or runtime API involved in serving a post.</p>
-<pre><code class="language-javascript">const message = &quot;Hello, world&quot;;
-console.log(message);</code></pre>
-<p>That simplicity is useful when the goal is to spend more time writing and less time maintaining infrastructure.</p>]]></content:encoded>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.kusteo.com/post.html?slug=hello-world</guid>
-    </item>
-    <item>
-      <title>Building a Small Static Blog</title>
-      <link>https://blog.kusteo.com/post.html?slug=second-post</link>
-      <description>The design principles behind a browser-rendered Markdown blog with a tiny deployment surface.</description>
-      <content:encoded><![CDATA[<h1>Building a Small Static Blog</h1>
-<p>A personal site does not need a large application stack. A handful of HTML pages, one stylesheet, a few browser scripts, and Markdown content can be enough.</p>
-<h2>The basic flow</h2>
-<ol><li>Write an article in <code>content/posts/</code>.</li><li>Push it to GitHub.</li><li>GitHub Actions updates the index and feeds.</li><li>Cloudflare Pages serves the repository as static files.</li><li><code>post.html?slug=...</code> fetches the Markdown article and renders it in the browser.</li></ol>
-<p>The result is a deliberately small system with a clear separation between content, metadata, and presentation.</p>]]></content:encoded>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.kusteo.com/post.html?slug=second-post</guid>
-    </item>
+    <lastBuildDate>Sun, 20 Sep 2026 07:16:34 GMT</lastBuildDate>
   </channel>
 </rss>
