@@ -11,7 +11,7 @@ permissions:
 
 env:
   # Full URL of the website (replace with your actual domain)
-  SITE_URL: https://xxx
+  SITE_URL: https://your-domain.example
 
   # Display name of the website (modify as needed)
   SITE_NAME: xxx
