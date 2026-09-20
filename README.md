@@ -1,4 +1,4 @@
-# Site Name — Pure Static Personal Blog
+# GlintLog — Pure Static Personal Blog
 
 A minimal, framework-free personal blog built with plain HTML, CSS, and JavaScript. The site is designed for Cloudflare Pages and GitHub, with Markdown posts stored in the repository and rendered in the browser on `post.html?slug=...`.
 
@@ -32,10 +32,8 @@ All third-party JavaScript uses `defer`. Highlight.js uses the GitHub theme, whi
 │   ├── app.js
 │   ├── post.js
 │   └── search.js
-├── content/
-│   └── posts/
-│       ├── hello-world.md
-│       └── second-post.md
+├── posts/
+│   └── second-post.md
 ├── data/
 │   ├── posts.json
 │   ├── feed.xml
@@ -58,7 +56,7 @@ You can also replace the placeholder Site Name and the placeholder About page co
 
 ## Writing a post
 
-Create a Markdown file in `content/posts/` with an English slug using lowercase letters, numbers, and hyphens only:
+Create a Markdown file in `posts/` with an English slug using lowercase letters, numbers, and hyphens only:
 
 ```markdown
 ---
@@ -83,7 +81,7 @@ For images, use an absolute URL from your image host, or an absolute site path s
 
 ## Publishing workflow
 
-1. Create or edit a `.md` post in `content/posts/`.
+1. Create or edit a `.md` post in `posts/`.
 2. `git add`, `git commit`, and `git push` to `main`.
 3. GitHub Actions parses published frontmatter, rebuilds `posts.json`, generates RSS and sitemap files, and commits those generated files.
 4. Cloudflare Pages detects the new repository state and deploys the static site.
